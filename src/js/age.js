@@ -23,6 +23,11 @@ export class GalacticAge {
     return this.marsAge;
   }
 
+  jupiter() {
+    this.jupiterAge = this.age * 11.86;
+    return this.jupiterAge;
+  }
+
 
 
 }
