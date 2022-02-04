@@ -18,4 +18,9 @@ describe('GalacticAge', () => {
     expect(input.venusAge).toEqual(24.8);
   });
 
+  test('should correctly determine the users age on Mars', () => {
+    input.mars();
+    expect(input.marsAge).toBeCloseTo(75.2);
+  });
+
 });
