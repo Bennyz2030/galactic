@@ -52,4 +52,9 @@ describe('GalacticAge', () => {
   beforeEach(() => {
     input = new GalacticAge(80, 40)
   });
+
+  test('should return the amount of years the user has lives past thier life expectency on Mercury', () => {
+    expect(input.mercuryExpectency()).toEqual(9.6);
+  });
+  
 });
