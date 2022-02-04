@@ -29,9 +29,13 @@ export class GalacticAge {
   }
 
   mercuryExpectency() {
-    this.mercuryAge = this.age * 0.24;
-    this.lifeExpectency = this.lifeExpectency * 0.24;
+    this.mercuryAge = this.age * .24;
+    this.lifeExpectency = this.lifeExpectency * .24;
+    if (this.lifeExpectency < this.mercuryAge) {
+      return (this.lifeExpectency - this.mercuryAge) * -1;
+    } else {
     return this.lifeExpectency - this.mercuryAge;
+    }
   }
 
   venusExpectency() {
