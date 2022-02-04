@@ -56,5 +56,9 @@ describe('GalacticAge', () => {
   test('should return the amount of years the user has lives past thier life expectency on Mercury', () => {
     expect(input.mercuryExpectency()).toEqual(9.6);
   });
-  
+
+  test('should return the amount of years the user has lives past thier life expectency on Venus', () => {
+    expect(input.venusExpectency()).toEqual(24.8);
+  });
+
 });
