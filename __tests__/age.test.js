@@ -61,4 +61,8 @@ describe('GalacticAge', () => {
     expect(input.venusExpectency()).toEqual(24.8);
   });
 
+  test('should return the amount of years the user has lives past thier life expectency on Mars', () => {
+    expect(input.marsExpectency()).toBeCloseTo(75.2);
+  });
+
 });
