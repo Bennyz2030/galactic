@@ -7,4 +7,10 @@ export class GalacticAge {
     this.marsAge = 0;
     this.jupiterAge = 0;
   }
+
+  mercury() {
+    this.mercuryAge = this.age * .24;
+    return this.mercuryAge;
+    }
+    
 }
