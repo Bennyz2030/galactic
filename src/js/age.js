@@ -29,8 +29,8 @@ export class GalacticAge {
   }
 
   mercuryExpectency() {
-    this.mercuryAge = this.age * .24;
-    this.lifeExpectency = this.lifeExpectency * .24;
+    this.mercuryAge = this.age * 0.24;
+    this.lifeExpectency = this.lifeExpectency * 0.24;
     if (this.lifeExpectency < this.mercuryAge) {
       return (this.lifeExpectency - this.mercuryAge) * -1;
     } else {
@@ -41,7 +41,11 @@ export class GalacticAge {
   venusExpectency() {
     this.venusAge = this.age * 0.62;
     this.lifeExpectency = this.lifeExpectency * 0.62;
+    if (this.lifeExpectency < this.venusAge) {
+      return (this.lifeExpectency - this.venusAge) * -1;
+    } else {
     return this.lifeExpectency - this.venusAge;
+    }
   }
 
   marsExpectency() {
