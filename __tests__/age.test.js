@@ -28,4 +28,8 @@ describe('GalacticAge', () => {
     expect(input.jupiterAge).toBeCloseTo(474.4);
   });
 
+  test('should determine the users remaining years on Mercury', () => {
+    expect(input.mercuryExpectency()).toEqual(9.6);
+  });
+
 });
