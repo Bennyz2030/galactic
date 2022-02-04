@@ -43,5 +43,13 @@ describe('GalacticAge', () => {
   test('should determine the users remaining years on Jupiter', () => {
     expect(input.jupiterExpectency()).toBeCloseTo(474.4);
   });
+});
 
+describe('GalacticAge', () => {
+
+  let input;
+
+  beforeEach(() => {
+    input = new GalacticAge(80, 40)
+  });
 });

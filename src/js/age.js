@@ -46,4 +46,10 @@ export class GalacticAge {
     return this.lifeExpectency - this.marsAge;
   }
 
+  jupiterExpectency() {
+    this.jupiterAge = this.age * 11.86;
+    this.lifeExpectency = this.lifeExpectency * 11.86;
+    return this.lifeExpectency - this.jupiterAge;
+    }
+
 }
