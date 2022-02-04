@@ -28,6 +28,10 @@ export class GalacticAge {
     return this.jupiterAge;
   }
 
-
+  mercuryExpectency() {
+    this.mercuryAge = this.age * .24;
+    this.lifeExpectency = this.lifeExpectency * .24;
+    return this.lifeExpectency - this.mercuryAge;
+    }
 
 }
