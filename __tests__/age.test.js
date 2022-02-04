@@ -36,4 +36,8 @@ describe('GalacticAge', () => {
     expect(input.venusExpectency()).toEqual(24.8);
   });
 
+  test('should determine the users remaining years on Mars', () => {
+    expect(input.marsExpectency()).toBeCloseTo(75.2)
+  });
+
 });
