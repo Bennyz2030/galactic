@@ -23,4 +23,9 @@ describe('GalacticAge', () => {
     expect(input.marsAge).toBeCloseTo(75.2);
   });
 
+  test('should correctly determine the users age on Jupiter', () => {
+    input.jupiter();
+    expect(input.jupiterAge).toBeCloseTo(474.4);
+  });
+
 });
