@@ -40,4 +40,8 @@ describe('GalacticAge', () => {
     expect(input.marsExpectency()).toBeCloseTo(75.2)
   });
 
+  test('should determine the users remaining years on Jupiter', () => {
+    expect(input.jupiterExpectency()).toBeCloseTo(474.4);
+  });
+
 });
