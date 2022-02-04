@@ -1,31 +1,47 @@
-# (Application Name)
+# Galactic Age Converter 👾
 
-#### (Brief Description of Application)
+## By Nicholas Benzinger
+_____________________________
 
-#### By (Your Name Here)
+### Project Discription 📖
+  * This web application takes a user's age and life expectency.
+  * Once recieved, it will give the user back their age and life expectency on other planets.
+  * Planets include: Mercury, Venus, Mars, and Jupiter.
+  _____________________________
 
-## Technologies Used
+### Technologies Used 🖥️
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* HTML
+* CSS3
+* JavaScript ES6
+* jQuery
+* Bootstrap
+* webpack/webpack-cli/webpack dev server
+* eslint
+* babel transpiler
+* Jest testing
+_______________________________
 
-## Description
+### Installation Instructions 🖊️
 
-## Setup/Installation Requirements
+* Open your terminal or console and use the command __git clone__ with this repository link: https://github.com/Bennyz2030/glactic.git
+* Enter the new directory with the command __cd galactic__
+* Install dependencies with the command __npm install__
+* To run locally use command __npm run start__
+* For production build use command __npm run build__
+________________________________
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+### Known Bugs 🐛
 
-## Known Bugs
-
-* _Any known issues_
-* _should go here_
+* _No known bugs._
+* _This apllication is a work in progress and still does not have a built user interface._
+* _If you should find any bugs open a pull request, or email me._
+__________________________________
 
 ## License
 
+[GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+__________________________________
+
 ## Contact Information
+nicholasbenzinger@gmail.com

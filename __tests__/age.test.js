@@ -67,6 +67,5 @@ describe('GalacticAge', () => {
 
   test('should return the amount of years the user has lives past thier life expectency on Jupiter', () => {
     expect(input.jupiterExpectency()).toBeCloseTo(474.4);
-  })
-
+  });
 });

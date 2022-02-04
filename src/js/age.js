@@ -67,5 +67,4 @@ export class GalacticAge {
     return this.lifeExpectency - this.jupiterAge;
     }
   }
-
 }
