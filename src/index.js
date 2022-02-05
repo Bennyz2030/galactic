@@ -14,6 +14,6 @@ import {GalacticAge} from './js/age.js';
     runAge.mercury();
     runAge.mercuryExpectency();
 
-    $('#output').number(runAge);
+    $('#output').text(runAge);
   });
 })
