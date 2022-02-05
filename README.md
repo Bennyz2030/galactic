@@ -29,6 +29,7 @@ _______________________________
 * Install dependencies with the command __npm install__
 * To run locally use command __npm run start__
 * For production build use command __npm run build__
+* _Or, open in GitHub Pages [here](https://bennyz2030.github.io/galactic/)_
 ________________________________
 
 ### Known Bugs 🐛
